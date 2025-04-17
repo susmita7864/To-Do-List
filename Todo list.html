@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>to-do list </title>
+        <style>
+            
+            body{
+                font-family: arial,sans-serif;
+                background-color:yellow;
+                margin:0;
+                padding:0;
+                disply:flex;
+                justify-content:center;
+                align-height:200vh;
+                box-sizing:border-box
+            }
+            .parent{
+                display:flex;
+                justify-content: center;/*horizontal center*/
+                align-items: center;/*vertical center*/
+                height: 100vh;
+            }
+            .todo-container{
+                background-color:pink;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+                border-radius:20px;
+                width:400px;
+                padding:30px
+                
+            }
+            h2{
+                color:green;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="parent">
+        <div class="todo-container">
+            <h2>TO_DO list</h2>
+            <ul>
+                <li><input type="checkbox">Learn HTML</li>
+                <li><input type="checkbox">Practice CSS</il>
+                <li><input type="checkbox">build a static webpage</li>
+                <li><input type="checkbox"> study for exams</li>
+            </ul>    
+        </div>
+    </div>
+</body>
+</html>
